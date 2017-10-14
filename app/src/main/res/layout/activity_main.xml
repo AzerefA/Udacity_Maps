@@ -33,6 +33,7 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/maps5"
+            android:text="StreetView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

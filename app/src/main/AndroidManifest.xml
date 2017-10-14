@@ -38,7 +38,8 @@
         <activity android:name=".MapsModeActivity" />
         <activity android:name=".MovngMapsActivity" />
         <activity android:name=".ShowHockeyActivity" />
-        <activity android:name=".DrawCircleActivity"></activity>
+        <activity android:name=".DrawCircleActivity" />
+        <activity android:name=".StreetViewActivity"></activity>
     </application>
 
 </manifest>

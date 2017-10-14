@@ -42,6 +42,7 @@ public class MainActivity extends ActionBarActivity{
         Button btn2 = (Button) findViewById(R.id.maps2);
         Button btn3 = (Button) findViewById(R.id.maps3);
         Button btn4 = (Button) findViewById(R.id.maps4);
+        Button btn5 = (Button) findViewById(R.id.maps5);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +71,13 @@ public class MainActivity extends ActionBarActivity{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,DrawCircleActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,StreetViewActivity.class);
                 MainActivity.this.startActivity(intent);
             }
         });
