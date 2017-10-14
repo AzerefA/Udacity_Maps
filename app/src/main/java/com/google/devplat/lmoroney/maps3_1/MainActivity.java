@@ -39,11 +39,20 @@ public class MainActivity extends ActionBarActivity{
         setContentView(R.layout.activity_main);
 
         Button btn1 = (Button) findViewById(R.id.maps1);
+        Button btn2 = (Button) findViewById(R.id.maps2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,MapsModeActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MovngMapsActivity.class);
                 MainActivity.this.startActivity(intent);
             }
         });
