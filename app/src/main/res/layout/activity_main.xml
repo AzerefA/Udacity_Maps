@@ -23,6 +23,7 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/maps3"
+            android:text="ShowHockey"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
