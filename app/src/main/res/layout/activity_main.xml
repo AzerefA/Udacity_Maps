@@ -28,6 +28,7 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/maps4"
+            android:text="DrawCircle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
